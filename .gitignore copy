@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+bin/
+etc/
+share/
+lib/
+lib64
+pyvenv.cfg
+.ipynb_checkpoints/
+.virtual_documents/
+Untitled*.ipynb
+.DS_Store
