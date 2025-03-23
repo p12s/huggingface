@@ -1,5 +1,5 @@
 # huggingface
-Это перевод, оригинал ![тут](https://github.com/domschl/HuggingFaceGuidedTourForMac?tab=readme-ov-file)
+Это перевод, оригинал [тут](https://github.com/domschl/HuggingFaceGuidedTourForMac?tab=readme-ov-file)
 
 # Deep Learning гайд от HuggingFace для Mac с Apple Silicon
 
@@ -334,6 +334,11 @@ HuggingFace — отличный ресурс для экспериментов 
 
 ```bash
 pip install -U transformers acceleration "huggingface_hub[cli]"
+
+or
+
+pip install transformers -i https://pypi.python.org/simple
+pip install -U accelerate
 ```
 
 > ![Примечание:](http://img.shields.io/badge/📝-Note:-green.svg?style=flat) При экспериментах с HuggingFace вы загрузите большие модели, которые будут храниться в вашем домашнем каталоге по адресу: `~/.cache/huggingface/hub`.
